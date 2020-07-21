@@ -43,6 +43,7 @@ Installer PHP 7.2 ou supérieur
 //Installe NVM (aka Node Version Manager)
 > curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
+//Installe NodeJS
 > nvm install 12.18.2
 
 //Installer NPM si nécessaire
