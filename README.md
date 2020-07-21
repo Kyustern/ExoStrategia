@@ -30,18 +30,6 @@ La fonction `dump` de symfony permet d'afficher des données lorsqu'on est en mo
 
 Installer PHP 7.2 ou supérieur
 
-- sur debian utiliser ces instructions:
-
-> apt install apt-transport-https lsb-release ca-certificates
-
-> wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
-
-> echo "deb https://packages.sury.org/php/ \$(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list
-
-> apt update
-
-> apt install php7.2
-
 - sur ubuntu utiliser ces instructions:
 
 > apt-get install software-properties-common
@@ -51,6 +39,16 @@ Installer PHP 7.2 ou supérieur
 > apt update
 
 > apt install php7.2
+
+//Installe NVM (aka Node Version Manager)
+> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
+> nvm install 12.18.2
+
+//Installer NPM si nécessaire
+
+//Dans le dossier src:
+> npm install
 
 Installer composer: https://getcomposer.org/
 Clonner le repo git sur votre PC
